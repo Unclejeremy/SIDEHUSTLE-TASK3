@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie-Delivery Page</title>
+    <link rel="stylesheet" href="nature.css">
+</head>
+<body class="body">
+    <!-- <header>
+        <div class="header1" id="hamburger-icon" onclick="toggleHambugerClass()">
+            <a href="#" onclick="alert('Thanks for your patronage')" class="foodie-heading"><h3>FOODIE.com</h3></a>
+            <nav>
+                <a class="foodie-nav" href="">Home</a>
+                <a class="foodie-nav" href="">Contact</a>
+                <a class="foodie-nav" href="">Blog</a>
+                <a class="foodie-nav" href="">About</a>
+            </nav>
+            <div class="show">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>   
+        </div>
+    
+        <div class="header2">
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">Services</a>
+            <a href="">About</a>
+        </div>
+    </header> -->
+    <header>
+        <div id="logo"><a href="/">FOODIE.com</a></div>
+        <nav>
+          <ul>
+            <li class="tab"><a href="#" class="active">Home</a></li>
+            <li class="tab"><a href="#">Services</a></li>
+            <li class="tab"><a href="#">Blog</a></li>
+            <li id="login"><a href="#" >Contact</a></li>
+            <li id="signup"><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleHambugerClass()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li id="login"><a href="#" >Contact</a></li>
+            <li id="signup"><a href="#">About</a></li>
+          </ul>
+        </div>
+      </header>
+    <main>
+        <div class="right-foodie">
+            <div class="login-title"><h3>Login</h3></div>
+            <div class="input">
+                <form name="myForm" action="./message.html" onsubmit="alert('Successful submission')">    
+                    <label for="Username"><i class="fa-thin fa-user fa-1x" aria-hidden="true"></i>Username</label>
+                    <input type="email" placeholder="Enter your ID" required>
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter your password" required>
+                    <a href="" style="text-decoration: none;color: aliceblue;">Forgot Password?</a>
+                        <button type="submit" >Login</button>
+                </form>        
+            </div>
+        </div>
+
+        <div class="left-foodie">
+            <h2>welcome to</h2>
+            <h1>FOODIE.com</h1>
+            <p style="text-align: justify;">Food is an essential aspect of human life. It provides us with the nutrients and energy we need to survive and thrive. Beyond its nutritional importance, food is also a vital aspect of human culture, socialization, and identity. The ways in which we produce, prepare, and consume food reflect our cultural heritage and history. Moreover, food is often associated with traditions, celebrations, and rituals, making it an integral part of our social lives.
+
+                In addition to its cultural and social significance, food plays a crucial role in our physical and mental health. Eating a balanced and nutritious diet can help prevent chronic diseases such as heart disease, diabetes, and certain cancers. Moreover, a healthy diet can boost our immune system, improve our cognitive function, and promote overall wellbeing. Conversely, poor nutrition can lead to a range of health problems, including obesity, malnutrition, and micronutrient deficiencies.
+                
+                Food is also relevant to global issues such as sustainability, climate change, and food security. The way we produce and consume food has a significant impact on the environment, with agriculture being one of the largest contributors to greenhouse gas emissions. Additionally, global food systems face challenges such as unequal access to food, food waste, and decreasing biodiversity. Addressing these issues requires a multi-disciplinary approach that considers the economic, social, and environmental aspects of food production and consumption.
+                
+                Overall, food is an incredibly relevant topic that touches on many aspects of human life, including culture, health, and the environment. Understanding the complex relationships between food and these various domains is essential for promoting sustainable and equitable food systems that benefit both individuals and society as a whole.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Designed by</p>
+        <p>Akpeghagha Oghenevwede</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
